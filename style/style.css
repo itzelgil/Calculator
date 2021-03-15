@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.calculadora{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(114, 219, 184);
+    width: 300px;
+    height: 500px;
+    border-radius: 25px;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+.calculadora td button{
+    display: block;
+    width: 66px;
+    height: 65px;
+    font-size: 25px;
+    border-radius: 25px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#resultado{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width: 275px;
+    height: 120px;
+    line-height: 100px;
+    background-color: rgb(58, 54, 54);
+    border-radius: 25px;
+    overflow-y: auto;
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(238, 238, 162);
+}
